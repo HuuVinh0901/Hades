@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    width: 1519.2px;
+    height: auto;
+}
+
+#header {
+    width: 100%;
+    height: 66px;
+    position: fixed;
+    background-color: transparent;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo-brand {
+    height: 66px;
+    padding-left: 50px;
+}
+
+.logo-link .logo {
+    margin: 5px 0;
+}
+
+.nav-menu {
+    height: 66px;
+    padding-left: 0;
+}
+
+.nav-menu #nav {
+    padding: 0;
+}
+
+.nav-menu .font:hover::after {
+    background-image: url(/img/effect_menu.webp) !important;
+    background-repeat: no-repeat;
+    background-size: 3.5em 2.5em;
+    content: "";
+    display: block;
+    height: 3.25em;
+    z-index: 999999;
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 4.125em;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    background-color: transparent;
+}
+
+.bgcolor.scrolled {
+    background-color: #fff;
+}
+
+#nav ul {
+    display: flex;
+    line-height: 66px;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+#nav ul li {
+    list-style-type: none;
+    margin-right: 1.25em;
+    position: relative;
+}
+
+#nav ul li a {
+    color: #272727;
+    text-decoration: none;
+    font-family: 'Oswald' !important;
+    font-size: 0.6975em;
+    padding-left: 0.5em;
+    padding-right: 0.5em
+}
+
+.tools {
+    height: 66px;
+    align-items: center;
+    line-height: 66px;
+    font-family: 'Oswald' !important;
+    padding-right: 50px;
+}
+
+.tools .account-links {
+    padding-right: 20px;
+}
+
+.search-and-cart .search {
+    padding-right: 20px;
+}
+
+.tools span a {
+    color: #272727;
+    font-size: 0.6875em;
+}
+
+.tools span a:hover {
+    text-decoration: none;
+}
+
+.tools .hd-select-l {
+    margin-left: 16.8px;
+    line-height: 17.8px;
+}
+
+.hd-select-l select {
+    background-color: #191919;
+    color: #fff;
+    font-family: 'Oswald' !important;
+    width: 35.8px;
+    height: 18.8px;
+    border-radius: 2px;
+}
+
+.hd-select-l option {
+    font-size: 0.6875em;
+}
+
+#content {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 66px;
+}
+
+.row {
+    margin: 80px 20px 50px 37px;
+}
+
+.list {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+.list li {
+    margin: 24px 0;
+}
+
+#content {
+    font-family: sans-serif;
+    z-index: -1;
+}
+
+.wrapper-heading-home-instagram {
+    padding-bottom: 0px !important;
+    font-family: 'Oswald' !important;
+    width: 100%;
+    font-size: 5.85vw;
+    height: auto!important;
+    overflow: hidden;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: hsl(0deg 0% 100%);
+}
+
+.wrapper-animation2 {
+    animation-name: animationText2;
+}
+
+.wrapper-animation2 {
+    animation: animationText2 15s linear infinite;
+    white-space: nowrap;
+}
+
+.text-animation-2 {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 1519.2px;
+}
+
+.wrapper-heading-home h2 {
+    font-size: 75px;
+    line-height: 1.6;
+    margin: 0 0 0px;
+    font-weight: 500;
+    position: relative;
+    padding: 0 0 0px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.wrapper-heading-home h2:before {
+    content: "";
+    display: block;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 2;
+    background: #000;
+    transition: all 0.3s linear;
+}
+
+@keyframes animationText2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.main-footer {
+    margin-top: 50px;
+    width: 1519.2px;
+    height: 457.2px;
+}
+
+.main-footer--bottom {
+    margin: 24px 0 0;
+}
+
+.footer-row {
+    margin: 50px 30px 50px 50px;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.main-footer .footer-col {
+    margin-bottom: 24px;
+}
+
+.main-footer h4 {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Oswald' !important;
+    letter-spacing: 0.02em;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.footer-col p {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    line-height: 200%;
+}
+
+.main-footer .footer-content ul {
+    margin-bottom: 15px;
+}
+
+.footer-content ul {
+    font-size: 12px;
+}
+
+.main-footer .footer-content ul li {
+    display: block;
+    line-height: 28px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.main-footer .footer-content ul li a,
+.main-footer .footer-content ul li span {
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+}
+
+.main-footer .footer-content.toggle-footer ul li span:before {
+    content: "";
+    width: 7px;
+    height: 1px;
+    background: #000;
+    left: -18px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.lang {
+    font-family: sans-serif;
+}
+
+.item-footer>a::before {
+    content: "";
+    width: 7px;
+    height: 1px;
+    background: #000;
+    left: -18px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.swiper-container-noti {
+    cursor: grab;
+    height: 40px;
+    background-color: #000;
+    z-index: 9999;
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+}
+
+.swiper-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.swiper-slide {
+    width: 1254px;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: .8125rem;
+}
+
+.message-text {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-text-title {
+    color: #00ca8d;
+    line-height: 1.25;
+    font-size: .9375rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-right: 8px;
+}
+
+.message-text-sub {
+    color: #fff;
+    line-height: 1.25;
+    font-size: .8125rem;
+    margin-bottom: 0;
+}
+
+.swiper-wrapper {
+    animation-name: animationText3;
+}
+
+.swiper-wrapper {
+    animation: animationText3 10s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes animationText3 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
