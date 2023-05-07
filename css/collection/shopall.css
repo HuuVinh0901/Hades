@@ -111,37 +111,37 @@ a:hover {
 }
 
 .section-products #product-7 .part-1::before {
-    background: url("/img/Collections/butom2.webp") no-repeat center;
+    background: url("../../img/Collections/butom2.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-8 .part-1::before {
-    background: url("/img/Collections/butom3.webp") no-repeat center;
+    background: url("../../img/Collections/butom3.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-9 .part-1::before {
-    background: url("/img/Collections/outer1.webp") no-repeat center;
+    background: url("../../img/Collections/outer1.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-10 .part-1::before {
-    background: url("/img/Collections/outer2.webp") no-repeat center;
+    background: url("../../img/Collections/outer2.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-11 .part-1::before {
-    background: url("/img/Collections/outer3.webp") no-repeat center;
+    background: url("../../img/Collections/outer3.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-12 .part-1::before {
-    background: url("/img/Collections/foot1.webp") no-repeat center;
+    background: url("../../img/Collections/foot1.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-13 .part-1::before {
-    background: url("/img/Collections/foot2.webp") no-repeat center;
+    background: url("../../img/Collections/foot2.webp") no-repeat center;
     background-size: cover;
 }
 

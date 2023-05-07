@@ -13,7 +13,7 @@ body {
 }
 
 .nav-menu li .font:hover::after {
-    background-image: url(/img/effect_menu.webp) !important;
+    background-image: url(../../img/effect_menu.webp) !important;
     background-repeat: no-repeat;
     background-size: 3.5em 2.5em;
     content: "";
@@ -83,28 +83,28 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("/img/Collections/top1.webp") no-repeat center;
+    background: url("../../img/Collections/top1.webp") no-repeat center;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("/img/Collections/top2.webp") no-repeat center;
+    background: url("../../img/Collections/top2.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("/img/Collections/top3.webp") no-repeat center;
+    background: url("../../img/Collections/top3.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("/img/Collections/top4.webp") no-repeat center;
+    background: url("../../img/Collections/top4.webp") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-5 .part-1::before {
-    background: url("/img/Collections/top5.webp") no-repeat center;
+    background: url("../../img/Collections/top5.webp") no-repeat center;
     background-size: cover;
 }
 
