@@ -10,7 +10,7 @@
     <script src="../../js/jquery-3.6.4.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/jquery.validate.min.js"></script>
-    <script src="../../js/validate_register.js"></script>
+    <script src="../../js/dangky.js"></script>
     <link rel="stylesheet" href="../../css/account/dangki.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <link rel="icon" href="../../img/Hades_favicon.png">
@@ -93,43 +93,40 @@
                             </div>
                             <div class="userbox">
                                 <form accept-charset="UTF-8" name="formValidation" action="/html/collections/shopall.html" id="create_customer" class="create_customer" method="post">
-                                    <div id="last_name" class="clearfix large_form">
-                                        <label for="last_name" class="label"><i class="icon-login icon-user "></i></label>
-                                        <input required="" type="text" value="" name="last_name" placeholder="Họ" id="last_name" class="text" size="30">
-                                    </div>
-                                    <div id="first_name" class="clearfix large_form">
+                                    
+                                    <div class="clearfix large_form">
                                         <label for="first_name" class="label"><i class="icon-login icon-user "></i></label>
-                                        <input required="" type="text" value="" name="first_name" placeholder="Tên" id="first_name" class="text" size="30">
+                                        <input  type="text"  placeholder="Tên đăng nhập" id="txtTenDN" class="text" size="30">
+                                        <span class="text-danger" id="tbTenDN">*</span>
                                     </div>
-                                    <div id="gender" class="clearfix large_form">
-                                        <input id="radio1" type="radio" value="0" name="gender">
-                                        <label for="radio1">
-                                            <span class="lang">Nữ</span>
-                                        </label>
-                                        <input id="radio2" type="radio" value="1" name="gender">
-                                        <label for="radio2">
-                                            <span class="lang">Nam</span>
-                                        </label>
+                                    <div class="clearfix large_form">
+                                        <select id="txtGioitinh">
+                                            <option value="Nam">Nam</option>
+                                            <option value="Nữ">Nữ</option>
+                                        </select>
                                     </div>
-                                    <div id="birthday" class="clearfix large_form">
+                                    <div  class="clearfix large_form">
                                         <label for="birthday" class="label"><i class="icon-login icon-envelope "></i></label>
-                                        <input type="text" value="" name="birthday" id="birthday" class="text" size="30" placeholder="mm/dd/yyyy">
+                                        <input type="date" class="form-control" id="txtDate">
+                                        <span class="text-danger" id="tbDate">*</span>
                                     </div>
                                     <div id="email" class="clearfix large_form">
                                         <label for="email" class="label"><i class="icon-login icon-envelope "></i></label>
-                                        <input required="" type="email" value="" placeholder=" Email" name="email" id="email" class="text" size="30">
+                                        <input  type="email"  placeholder=" Email"  id="txtEmail" class="text" size="30">
+                                        <span class="text-danger" id="tbEmail">*</span>
                                     </div>
                                     <div id="password" class="clearfix large_form">
                                         <label for="password" class="label"><i class="icon-login icon-shield "></i></label>
-                                        <input required="" type="password" value="" placeholder=" Mật khẩu" name="password" id="password" class="password text" size="30">
+                                        <input  type="password"  placeholder=" Mật khẩu"  id="txtPass" class="password text" size="30">
+                                        <span class="text-danger" id="tbPass">*</span>
                                     </div>
                                     <div class="clearfix action_account_custommer">
                                         <div class="action_bottom">
-                                            <input class="btn" type="submit" value="Đăng ký">
+                                            <input class="btn" type="submit" id="btnDangKy" value="Đăng ký">
                                         </div>
                                     </div>
                                     <div class="clearfix req_pass">
-                                        <a href="../../index.html" class="return_back">
+                                        <a href="../hades.html" class="return_back">
                                             <i class="fa fa-long-arrow-left"></i>
                                             <span class="lang">Quay lại trang chủ</span>
                                         </a>
@@ -360,6 +357,36 @@
                         <span class="message-text-sub">HADES™ 2023</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal " role="dialog" id="myModal">
+        <div class="col-xs-12">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Thông tin khách hàng</h1>
+                    <h2 style="color: green;"> Đăng ký thành công</h2>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <table class="table table-striped" role="table" id="table">
+                            <tr>
+                                
+                                <th>Tên đăng nhập</th>
+                                <th>Giới Tính</th>
+                                <th>Ngày tháng năm sinh</th>
+                                
+                                <th>Email</th>
+                                
+                                
+                            </tr>
+                        </table>
+                        <button class="btn btn-success " type="button" id="btnXacNhan"
+                            style="margin-left: 550px;margin-top: 30px;">Xác Nhận</button>
+                </div>
+
+
+                </form>
             </div>
         </div>
     </div>
